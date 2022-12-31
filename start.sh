@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/lazyindu/MovieStorageWala /MovieStorageWala
+  git clone https://github.com/stbhai/MovieStorageWalaBOT /MovieStorageWala
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /MovieStorageWala
