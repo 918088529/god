@@ -394,7 +394,7 @@ async def get_shortlink(link):
             async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
                 data = await response.json(content_type='text/html')
                 if data["status"] == "success":
-                    return data['shortlink']
+                    return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
                     return f'https://gplinks.in/api?api={URL_SHORTNER_WEBSITE_API}&url={link}'
