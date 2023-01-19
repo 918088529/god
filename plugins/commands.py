@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/MovieStorage_updates')
+                InlineKeyboardButton('⚡ Group ⚡', url='https://t.me/blackest_harbour')
             ],
             [
-                InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
+                InlineKeyboardButton('🏘️ Main ChanneL ⚡', url=f"https://telegram.me/z_harbour"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,11 +47,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MovieStorage_updates')
+            InlineKeyboardButton('🏴Black Market🏴⚡', url=f"https://telegram.me/z_harbour_files"),
+            InlineKeyboardButton('🍿 Mdisk BOT 🍿', url='https://t.me/Mdisk_Links_Sender_Bot')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('ℹ️ HΞLᎮ ℹ️', callback_data='help'),
+            InlineKeyboardButton('🅰️BOUT 💥', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MovieStorage_updates')
+            InlineKeyboardButton('🖤Black Market🖤', url=f"https://telegram.me/moviestorage_official"),
+            InlineKeyboardButton('🍿 MDISK BOT 🍿', url='https://t.me/MdiskLinksSearchBot')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
