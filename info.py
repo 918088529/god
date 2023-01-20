@@ -18,7 +18,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5390002514:AAF__YybL_y9LYeIXhZ-ZVjBYADmTJb
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 30))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/b806ad314d0c415571bde.jpg')).split()
 
 # Admins, Channels & Users
@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001738180086'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001664271836'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'blackest_harbour')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
